@@ -1,0 +1,126 @@
+.chat-app {
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+  border: 1px solid #04AA6D;
+  border-radius: 10px;
+  box-shadow: 4px 0px 13px rgb(24 15 15 / 64%);
+
+}
+
+.chat-input {
+  position: fixed;
+  top: 81%;
+  left: 25%;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.input {
+  margin-right: 10px;
+  padding: 20px;
+  width: 100vh;
+  border: 1px solid green;
+  border-radius: 20px;
+  box-shadow: 0 9px #999;
+}
+
+.chat-thread {
+  align-items: center;
+  align-content: center;
+  padding: 50px;
+  margin: 40px;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+  background-color: #3e8e41
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+.chat-message {
+  margin: 5px;
+  padding: 5px;
+}
+
+
+/* ChatMessage.css */
+.heart-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.heart-grey {
+  color: grey;
+}
+
+.heart-red {
+  color: red;
+}
+
+
+
+
+
+/* style.css */
+
+.chat-message {
+  display: flex;
+  align-items: center;
+}
+
+.user-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  /* Adjust margin as needed */
+  font-size: 20px;
+}
+
+.message-content {
+  flex: 1;
+}
+
+.meassage-text {
+  display: block;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.user {
+  font-weight: 600;
+  font-size: 20px;
+  position: relative;
+  top: 8px;
+}
