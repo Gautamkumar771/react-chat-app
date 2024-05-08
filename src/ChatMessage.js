@@ -1,7 +1,7 @@
 
 
 import React, { useState } from 'react';
-import './style.css'; // Import CSS file
+import './style.css'; // Import CSS file 
 
 const ChatMessage = ({ message }) => {
   const [likes, setLikes] = useState(0);
@@ -26,5 +26,8 @@ const ChatMessage = ({ message }) => {
   );
 };
 
+
+
 export default ChatMessage;
+
 

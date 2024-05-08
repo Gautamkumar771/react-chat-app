@@ -11,8 +11,10 @@ const ChatApp = () => {
   const [messages, setMessages] = useState([]);
 
   const handleSend = (text) => {
-    const randomUser = user_list[Math.floor(Math.random() * user_list.length)];
+    const randomUser = user_list[Math.floor(Math.random() * user_list.length)];   // to feach the random user 
+
     const newMessage = { user: randomUser, text };
+    
     setMessages([...messages, newMessage]);
   };
 
